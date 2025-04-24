@@ -2,7 +2,7 @@
 
 A modern, responsive weather forecast application built with **React**, **Tailwind CSS**, and the **OpenWeatherMap API**. This project delivers real-time weather updates, hourly and daily forecasts, and a user-focused experience with dynamic visuals and mobile-first design.
 
-**🔗 Live Demo**: [View the app here](https://your-netlify-link.netlify.app)
+**🔗 Live Demo**: [View the app here](https://weather-app-xy.netlify.app/)
 
 ---
 
