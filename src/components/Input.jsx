@@ -6,21 +6,22 @@ const Input = ({ setQuery, setUnits }) => {
   const [city, setCity] = useState('');
 
   const handleSearchClick = () => {
-    if (city !== "") setQuery({ q: city });
+    if (city !== '') setQuery({ q: city });
   };
 
   const handleLocationClick = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition((position) => {
-        const { latitude, longitude } = position.coords; 
+        const { latitude, longitude } = position.coords;
         setQuery({ lat: latitude, lon: longitude });
       });
     }
   };
 
   return (
-    <div className="flex flex-row justify-center my-6">
-      <div className="flex flex-row w-3/4 items-center justify-center space-x-4">
+    <div className="flex flex-col sm:flex-row justify-center items-center my-6 gap-4 w-full px-4">
+      {/* Search Input & Icons */}
+      <div className="flex flex-row w-full sm:w-3/4 items-center justify-center space-x-4">
         <input
           value={city}
           onChange={(e) => setCity(e.currentTarget.value)}
@@ -39,7 +40,9 @@ const Input = ({ setQuery, setUnits }) => {
           onClick={handleLocationClick}
         />
       </div>
-      <div className="flex flex-row w-1/4 items-center justify-center">
+
+      {/* Unit Toggle */}
+      <div className="flex flex-row w-full sm:w-1/4 items-center justify-center sm:justify-end">
         <button
           className="text-2xl font-medium transition ease-out hover:scale-125"
           onClick={() => setUnits('metric')}
