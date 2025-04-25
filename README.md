@@ -1,8 +1,12 @@
 # ⛅ React Weather App
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d065ca4e-f4a6-46bf-8208-eedc143747ac/deploy-status)](https://app.netlify.com/sites/weather-app-xy/deploys)
+![License](https://img.shields.io/github/license/Gideon-Cameron/React-Weather-App)
+![Stars](https://img.shields.io/github/stars/Gideon-Cameron/React-Weather-App?style=social)
+
 A modern, responsive weather forecast application built with **React**, **Tailwind CSS**, and the **OpenWeatherMap API**. This project delivers real-time weather updates, hourly and daily forecasts, and a user-focused experience with dynamic visuals and mobile-first design.
 
-**🔗 Live Demo**: [View the app here](https://weather-app-xy.netlify.app/)
+**🔗 Live Demo**: [weather-app-xy.netlify.app](https://weather-app-xy.netlify.app/)
 
 ---
 
@@ -41,6 +45,10 @@ A modern, responsive weather forecast application built with **React**, **Tailwi
 | SEO            | 92+   |
 
 ---
+
+## 📄 License
+
+This project is licensed under the [MIT License](./LICENSE).
 
 ## 📦 Getting Started
 
