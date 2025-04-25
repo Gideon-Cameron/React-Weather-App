@@ -48,3 +48,4 @@ A modern, responsive weather forecast application built with **React**, **Tailwi
 ```bash
 git clone https://github.com/Gideon-Cameron/react-weather-app.git
 cd react-weather-app
+npm install
